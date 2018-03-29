@@ -1,5 +1,4 @@
 #! /bin/bash
-export TEST_VALUE=12
 sh -c 'echo "deb https://cloud.r-project.org/bin/linux/ubuntu xenial/" >> /etc/apt/sources.list'
 apt-key adv --keyserver keyserver.ubuntu.com --recv-keys E084DAB9
 apt update
