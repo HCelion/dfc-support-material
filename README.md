@@ -1,7 +1,7 @@
 # Running a RStudio Server on GCP
 
 
-This script creates a gcloud compute instance of type n1-standard-4 in a zone of your choice and installs R, RStudio, livetex and all necessary dependencies to get a basic tidyverse setup running. In the cloud shell, or an authenticated machine, run the following commands.
+This script creates a gcloud compute instance of type n1-standard-2 in a zone of your choice and installs R, RStudio, livetex and all necessary dependencies to get a basic tidyverse setup running. In the cloud shell, or an authenticated machine, run the following commands.
 ```{bash}
 git clone https://github.com/HCelion/dfc-support-material.git
 cd dfc-support-material/
