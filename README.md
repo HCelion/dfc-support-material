@@ -8,7 +8,7 @@ cd dfc-support-material/
 ./start_server.sh europe-west1-d
 ```
 
-This should create the instance of name consultant-workstation and the ingress firewall rule for port 8787.
+This should create the instance of name consultant-workstation and the firewall rule for port 8787.
 
 SSH into the machine and add a user. Afterwards locate the external IP of the machine and access it via the http protocol.
 ```
